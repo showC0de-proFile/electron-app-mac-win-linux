@@ -9,7 +9,7 @@
     "make-linux": "npx @electron-forge/cli make --platform linux",
     "make": "npx @electron-forge/cli make",
     "start": "electron-forge start",
-    "package": "electron-forge package"    
+    "package": "electron-forge package"
   },
   "author": "Andres Acevedo",
   "license": "MIT",
@@ -26,7 +26,7 @@
       "packagerConfig": {
         "icon": "./build/icon",
         "name": "ElectroReader",
-        "executableName": "electro-text-reader"        
+        "executableName": "electro-text-reader"
       },
       "makers": [
         {
