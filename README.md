@@ -1,4 +1,4 @@
-#Desktop app with Electron
+# Desktop app with Electron
 That's simple
 
 #Install
