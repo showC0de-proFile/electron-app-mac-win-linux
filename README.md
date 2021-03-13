@@ -1,6 +1,19 @@
-# Electron Package Builder
+Desktop app with Electron
+That's simple
 
-- Tutorial about creating a multiplatform text loader with Electron.
-- Here we address the configuration necessary to build for macOS, Windows and Linux.
-- Example electron app with a structure to avoid common security problems. 
+Install
+npm i my-electron-app
+Run on Mac OS
 
+npm run make-mac
+Run on Linux
+
+npm run make-linux
+Run on Windows
+
+npm run make
+NPM
+https://www.npmjs.com/package/my-electron-app
+
+License
+MIT
