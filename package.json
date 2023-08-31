@@ -1,56 +1,15 @@
 {
-  "name": "electro-text-reader",
-  "productName": "ElectroReader",
-  "version": "1.2.0",
-  "description": "Multi platform Text Loader",
+  "devDependencies": {
+    "electron": "^26.1.0"
+  },
+  "name": "Curation-Desktop",
+  "version": "1.0.0",
   "main": "main.js",
   "scripts": {
-    "make-mac": "npx @electron-forge/cli make --platform darwin",
-    "make-linux": "npx @electron-forge/cli make --platform linux",
-    "make": "npx @electron-forge/cli make",
-    "start": "electron-forge start",
-    "package": "electron-forge package"
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Andres Acevedo",
-  "license": "MIT",
-  "devDependencies": {
-    "@electron-forge/cli": "^6.0.0-beta.53",
-    "@electron-forge/maker-deb": "^6.0.0-beta.53",
-    "@electron-forge/maker-rpm": "^6.0.0-beta.53",
-    "@electron-forge/maker-squirrel": "^6.0.0-beta.53",
-    "@electron-forge/maker-zip": "^6.0.0-beta.53",
-    "electron": "^9.2.1"
-  },
-  "config": {
-    "forge": {
-      "packagerConfig": {
-        "icon": "./build/icon",
-        "name": "ElectroReader",
-        "executableName": "electro-text-reader"
-      },
-      "makers": [
-        {
-          "name": "@electron-forge/maker-squirrel",
-          "config": {
-            "name": "electro-text-reader"
-          }
-        },
-        {
-          "name": "@electron-forge/maker-zip",
-          "platforms": [
-            "darwin"
-          ]
-        },
-        {
-          "name": "@electron-forge/maker-deb",
-          "config": {
-            "icon": "./build/icon.png"
-          }
-        }
-      ]
-    }
-  },
-  "dependencies": {
-    "electron-squirrel-startup": "^1.0.0"
-  }
+  "repository": "git@github.com:showC0de-proFile/electron-app-mac-win-linux.git",
+  "author": "tsmsp <tsm_sp@hotmail.com>",
+  "license": "MIT"
 }
